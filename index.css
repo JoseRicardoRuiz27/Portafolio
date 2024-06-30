@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    margin: 5px 0;
+    width: 100%;
+    justify-content: space-around;
+
+    h1 {
+        font-size: 22px;
+    }
+
+    img {
+        width: 20px;
+    }
+
+    a {
+        gap: 12px;
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+        margin-top: 2px;
+    }
+}
+
+.Precentacion {
+    margin: 64px 199px;
+    display: flex;
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 17px;
+        margin: 22px 22px 0 0;
+    }
+
+    img {
+        width: 232px;
+        border-radius: 100%;
+        border: solid;
+    }
+}
+
+.about-me {
+    width: 100%;
+    height: 200px;
+    background: #6ba2f5;
+
+    h1 {
+        margin-left: 102px;
+    }
+
+    p {
+        margin-left: 102px;
+    }
+
+}
+
+.habilidades {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.conteiner {
+    display:inline-flex;
+    justify-content:space-between;
+    border: solid #446391 6px;
+    width: 112px;
+    height: 120px;
+    margin: 22px;
+    margin-right: 112px;
+        p{
+            margin-left: 32px;
+        }
+        img{
+            margin-top: 46px;
+            margin-left: 32px;
+            position: absolute;
+            width: 52px;
+            height: 52px;
+        }
+}
+
+.formacion{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    p{
+        color: black;
+        font-size: 18px;   
+    }
+}
+
+.proyecto{
+    margin-top: 122px;
+    display: inline-flex;
+    h1{
+        margin-right: 12px;
+    }
+    img{
+        margin-top: 122px;
+        width: 422px;
+    }
+    h2{
+        margin-top: 222px;
+    }button{
+        padding: 22px;
+        border: none;
+        border-radius: 22px;
+        background-color: rgb(58, 58, 253);
+    }
+}
+
+.contacto{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px;
+    gap: 22px;
+    input{
+        border: solid rgb(58, 58, 253);
+        padding: 22px;
+        border-radius: 22px;
+        width: 422px;
+    }
+    textarea{
+        border: solid rgb(58, 58, 253);
+        border-radius: 22px;
+        height: 122px;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    font-size: 18px;
+    margin-top: 22px;
+    background: #6ba2f5;
+}
