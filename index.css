@@ -135,6 +135,13 @@
         border-radius: 22px;
         height: 122px;
     }
+    button{
+        padding: 19px;
+        border: none;
+        border-radius: 22px;
+        background-color: rgb(58, 58, 253);
+        font-size: 19px;
+    }
 }
 
 footer{
