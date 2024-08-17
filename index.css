@@ -3,3 +3,13 @@
     padding: 32px;
     background-color: #290732;
 }
+.iconos_contenedores, a{
+    position: relative;
+    bottom: 30px;
+    margin-left: 25px;
+    color: red;
+}
+
+.img-git{
+    width: 25px;
+}
