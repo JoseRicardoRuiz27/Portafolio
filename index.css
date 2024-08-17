@@ -24,7 +24,8 @@
 
 
 .contacto{
-    border: solid 13px whitesmoke;
+    position:relative;
+    border: solid 4px whitesmoke;
     border-radius: 32px;
     margin-left: 182px;
     height: 182px;
@@ -39,4 +40,15 @@
     border-radius: 22px;
     padding: 23px;
     width: 222px;
+}
+
+.footer{
+    position:unset;
+    margin-top: -82px;
+    height: 322px;
+    background: #282828;
+}
+.titulo-footer{
+    font-size: 22px;
+    margin-top: 22px;
 }
