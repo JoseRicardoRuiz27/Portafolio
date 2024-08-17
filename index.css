@@ -1,15 +1,42 @@
+.img_jr{
+    width: 228px;
+}
 .sobre_mi{
     border: 2px solid #f5c8f9;
-    padding: 32px;
+    padding: 52px;
     background-color: #290732;
-}
-.iconos_contenedores, a{
-    position: relative;
-    bottom: 30px;
-    margin-left: 25px;
-    color: red;
 }
 
 .img-git{
-    width: 25px;
+    margin: 22px;
+    width: 45px;
+}
+.encriptador{
+    width: 386px;
+}
+.alurageek{
+    height: 310px;
+    width: 386px;
+}
+.aluraplay{
+    width: 386px;
+}
+
+
+.contacto{
+    border: solid 13px whitesmoke;
+    border-radius: 32px;
+    margin-left: 182px;
+    height: 182px;
+    width: 922px;
+    color: #fff;
+    background: blue;
+}
+.contacto .titulo-contacto{
+    font-size: 32px;
+}
+.btn-contacto{
+    border-radius: 22px;
+    padding: 23px;
+    width: 222px;
 }
