@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-code{
+    width: 45px;
+}
 .img_jr{
     width: 228px;
 }
@@ -19,7 +27,7 @@
     width: 386px;
 }
 .aluraplay{
-    width: 386px;
+    width: 486px;
 }
 
 
@@ -27,7 +35,7 @@
     position:relative;
     border: solid 4px whitesmoke;
     border-radius: 32px;
-    margin-left: 182px;
+    margin-left: 242px;
     height: 182px;
     width: 922px;
     color: #fff;
@@ -45,10 +53,17 @@
 .footer{
     position:unset;
     margin-top: -82px;
-    height: 322px;
+    height: 300px;
     background: #412a46;
 }
 .titulo-footer{
     font-size: 22px;
     margin-top: 22px;
+}
+
+@media screen and (max-width: 844px) {
+    .contacto{
+        width: 100%;
+        margin: 0;
+    }
 }
