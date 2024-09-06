@@ -15,6 +15,10 @@
     background-color: #290732;
 }
 
+.card-titulos{
+    width: 100%;
+}
+
 .img-git{
     margin: 22px;
     width: 45px;
@@ -35,7 +39,7 @@
     position:relative;
     border: solid 4px whitesmoke;
     border-radius: 32px;
-    margin-left: 242px;
+    margin: auto;
     height: 182px;
     width: 922px;
     color: #fff;
